@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+asgiref = "==3.2.10"
+autopep8 = "==1.5.4"
+Django = "==3.1"
+djangorestframework = "==3.11.1"
+Pillow = "==7.2.0"
+pycodestyle = "==2.6.0"
+flake8 = "==3.8.4"
+pytz = "==2020.1"
+sqlparse = "==0.3.1"
+toml = "==0.10.1"
+gunicorn = "==19.9.0"
+
+[dev-packages]
+
+[requires]
+python_version = "2.7"
